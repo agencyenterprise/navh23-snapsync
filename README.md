@@ -1,21 +1,24 @@
 # SnapSync
 
-## NAVH 2023 Submission
+## NAVH 2023 - OH SNAP!
 
-## SnapSync leverages IPFS and Piñata to enable the backup and sharing of Metamask Snap states across multiple devices and browsers.
+SnapSync leverages IPFS and Piñata to enable the backup and sharing of Metamask Snap states across multiple devices and browsers.
+
+There are two Github repositories required to demonstrate the functionality.
+
+1. This repo, which is the underlying snap that handles the connection to IPFS and can be included in other snaps as an npm package
+2. The [demo repo](https://github.com/agencyenterprise/navh23-snapsync), which implements the snap and demonstrates saving and fetching the states.
 
 ![img](./snapsync-screenshot.png)
 
 ### Team
 
-| Name              | Github       |
-| ----------------- | ------------ |
-| Daniel Cruz       | @ddanielcruz |
-| Jonathan Bertoldi | @jayremias   |
-| Ruan Azevedo      | @RuanAzevedo |
-| Steve Caldwell    | @scald       |
-
-**Bounty:** OH SNAP!
+| Name              | Github                                             |
+| ----------------- | -------------------------------------------------- |
+| Daniel Cruz       | [@ddanielcruz](https://www.github.com/ddanielcruz) |
+| Jonathan Bertoldi | [@jayremias](https://www.github.com/jayremias)     |
+| Ruan Azevedo      | [@RuanAzevedo](https://www.github.com/ruanazevedo) |
+| Steve Caldwell    | [@scald](https://www.github.com/scald)             |
 
 ## Getting Started
 
@@ -27,7 +30,11 @@ yarn install && yarn start
 
 Access the demo at http://localhost:8000
 
-You'll need a Pinata API Secret to test the functionality of SnapSync.
+You'll need a Pinata API Key to test the functionality of SnapSync.
+
+1. Connect Metamask Flask
+2. Enter your Pinata API key for saving and retrieving your Snap's state
+3. Launch the [demo app](https://github.com/agencyenterprise/navh23-snapsync) which will leverage this installed Snap to retrive and persist the state in IPFS.
 
 > Hackathon judges: a key was provided in the submission, but reach out to steve@ae.studio if you need any help getting started.
 
