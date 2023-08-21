@@ -30,13 +30,13 @@ yarn install && yarn start
 
 Access the demo at http://localhost:8000
 
-You'll need a Pinata API Key to test the functionality of SnapSync.
+You'll need a Pinata JWT to test the functionality of SnapSync.
 
 1. Connect Metamask Flask
-2. Enter your Pinata API key for saving and retrieving your Snap's state
+2. Enter your Pinata JWT for saving and retrieving your Snap's state
 3. Launch the [demo app](https://github.com/agencyenterprise/navh23-snapsync) which will leverage this installed Snap to retrive and persist the state in IPFS.
 
-> Hackathon judges: a key was provided in the submission, but reach out to steve@ae.studio if you need any help getting started.
+> Hackathon judges: a JWT was provided in the submission, but reach out to steve@ae.studio if you need any help getting started.
 
 ## Future plans
 
