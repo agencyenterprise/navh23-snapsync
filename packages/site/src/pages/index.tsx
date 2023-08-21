@@ -149,7 +149,7 @@ const Index = () => {
   return (
     <Container>
       <Heading>
-        Set up your <Span>IPFS</Span> connection
+        Sync your Snap with <Span>IPFS</Span>
       </Heading>
 
       <CardContainer>
