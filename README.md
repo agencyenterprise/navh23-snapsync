@@ -4,7 +4,7 @@
 
 ## SnapSync leverages IPFS and Piñata to enable the backup and sharing of Metamask Snap states across multiple devices and browsers.
 
-![img](https://www.dropbox.com/scl/fi/fr25hr24wj6j8a53f5mx7/snapsync-screenshot.png?rlkey=ecuhgv8sbyw6imjklkunxg98x&dl=1)
+![img](./snapsync-screenshot.png)
 
 ### Team
 
